@@ -1,0 +1,19 @@
+DATABASE_HOSTNAME: "localhost"
+DATABASE_NAME: "database_name"
+DATABASE_USERNAME: "database_username"
+DATABASE_PASSWORD: "database_password"
+MYSQL_POOL: "20"
+
+SECRET_KEY_BASE: "secret_key_development"
+SECRET_KEY_BASE_PRODUCTION: "secret_key_production"
+
+CREDENTIALS: "CREDENTIALS"
+
+#mailer
+SMTP_ADDRESS: "smtp.gmail.com"
+SMTP_PORT: "587"
+SMTP_AUTHENTICATION: "plain"
+SMTP_DOMAIN: "gmail.com"
+EMAIL_USERNAME: "email_address"
+EMAIL_PASSWORD: "password_email"
+HOST: "localhost:3000"
