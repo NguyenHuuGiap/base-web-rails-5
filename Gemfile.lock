@@ -324,7 +324,7 @@ GEM
     sidekiq-cron (1.1.0)
       fugit (~> 1.1)
       sidekiq (>= 4.2.1)
-    simple_form (4.1.0)
+    simple_form (5.0.1)
       actionpack (>= 5.0)
       activemodel (>= 5.0)
     simplecov (0.16.1)
@@ -391,7 +391,7 @@ DEPENDENCIES
   chromedriver-helper
   config
   database_cleaner
-  devise
+  devise (>= 4.7.1)
   factory_bot_rails
   faker
   figaro (~> 1.1.1)
@@ -415,7 +415,7 @@ DEPENDENCIES
   shoulda-matchers (~> 3.1.2)
   sidekiq
   sidekiq-cron
-  simple_form
+  simple_form (>= 5.0.0)
   simplecov-json
   simplecov-rcov
   spring
